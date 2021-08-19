@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Weapon
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":465.0,"y":37.5},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"9f417cae-e9dd-4f09-b900-517f974a04ae","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"8da90f39-c5ef-4664-bdb5-1f3833c1f660","$version":"A","$type":"Bolt.Update"},{"coroutine":false,"defaultValues":{"key":{"$content":"Space","$type":"UnityEngine.KeyCode"},"action":{"$content":"Down","$type":"Ludiq.PressState"}},"position":{"x":-90.0,"y":-24.0},"guid":"5af65021-71ac-4a13-9727-c86122ebd9c8","$version":"A","$type":"Bolt.OnKeyboardInput","$id":"13"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Speed":{"$content":50.0,"$type":"System.Single"},"Projectile":{"$content":1,"$type":"UnityEngine.Object"},"Cooldown":{"$content":0.0,"$type":"System.Single"}},"position":{"x":328.0,"y":-33.0},"guid":"b8b60dfc-a2d5-40b5-9418-79456a81b687","$version":"A","$type":"Bolt.SuperUnit","$id":"15"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Shoot
+      Point","$type":"System.String"},"object":null},"position":{"x":66.0,"y":220.0},"guid":"d201940e-8a59-405c-a3bc-1e8ea24df320","$version":"A","$type":"Bolt.GetVariable","$id":"18"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"15"},"destinationKey":"Shoot
+      Input","guid":"54df59a7-6013-4534-9825-feee1ee9c2aa","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"Shoot
+      Point","guid":"32d63fe7-bc66-47dc-ba93-1c68f9f119c5","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: fa1835a9e3cd79240be064a816452b3c, type: 2}
+    - {fileID: 1523714056328366772, guid: e8e39ae024ca1d346a5ad41a31da3840, type: 3}
