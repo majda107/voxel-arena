@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: PlayerFlow
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":227.8222,"y":49.91111},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"de03a909-65e1-4097-a342-3d57f0414d44","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"d61e2c0c-5ee8-4b9f-b9b6-0392af90b65f","$version":"A","$type":"Bolt.Update","$id":"11"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Speed":{"$content":10.0,"$type":"System.Single"},"JumpHeight":{"$content":6.0,"$type":"System.Single"},"Gravity":{"$content":1.0,"$type":"System.Single"}},"position":{"x":235.0,"y":35.0},"guid":"b408149b-df6b-4843-939c-83e6f28c2ba2","$version":"A","$type":"Bolt.SuperUnit","$id":"13"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"Update","guid":"24639813-51c3-47c6-a748-da9d551eb546","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 34c83a1fd8ee2ef47a5d796fdf91489d, type: 2}
