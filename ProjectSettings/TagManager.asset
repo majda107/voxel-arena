@@ -4,11 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< HEAD
   - Ground
-=======
   - Projectile
->>>>>>> 3f09727a8663808f77a816121ecf2c31517ec290
+  - Danger
   layers:
   - Default
   - TransparentFX
