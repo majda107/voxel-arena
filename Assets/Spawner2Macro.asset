@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Spawner2Macro
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":129.5293},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"a675be99-dc32-4420-9961-a8a8a6eb765f","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"ab7b4570-7906-482b-b616-2133acebb8b2","$version":"A","$type":"Bolt.Update","$id":"11"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"Time":{"$content":5.0,"$type":"System.Single"},"Count":{"$content":1,"$type":"System.Int32"}},"position":{"x":320.0,"y":-7.0},"guid":"5fe8fcbe-4f92-4786-a90b-e74940631347","$version":"A","$type":"Bolt.SuperUnit","$id":"13"},{"type":"UnityEngine.GameObject","value":{"$content":1,"$type":"UnityEngine.Object"},"defaultValues":{},"position":{"x":-61.0,"y":222.0},"guid":"64b6daef-e43b-46a0-adbb-7260067bb544","$version":"A","$type":"Bolt.Literal","$id":"16"},{"sourceUnit":{"$ref":"11"},"sourceKey":"trigger","destinationUnit":{"$ref":"13"},"destinationKey":"Spawn","guid":"33b3e73d-d75f-464a-88b5-8faeeebd1e6e","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"13"},"destinationKey":"Enemy","guid":"83ad020c-9707-4813-a3ff-4bb01a3d3a1a","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: b50091faa662a1f42854c0d9e664f86d, type: 2}
+    - {fileID: 389889661533984600, guid: 42edbe22321d193419ce85a1e73d5305, type: 3}

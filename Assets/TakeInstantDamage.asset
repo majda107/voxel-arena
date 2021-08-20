@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: TakeInstantDamage
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"TakeDamage","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"AfterTakeDamage","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":{"$content":10,"$type":"System.Int32"},"_type":"System.Int32","key":"Amount","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":576.9631,"y":97.27385},"zoom":1.0,"elements":[{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Health","$type":"System.String"}},"position":{"x":345.0,"y":53.0},"guid":"5b7604e7-485b-4c28-8b26-afbfe0dc7092","$version":"A","$type":"Bolt.GetVariable","$id":"12"},{"kind":"Scene","defaultValues":{"name":{"$content":"Health","$type":"System.String"}},"position":{"x":862.0,"y":105.0},"guid":"8f3ea61d-6584-4216-b2bb-0f72d150936d","$version":"A","$type":"Bolt.SetVariable","$id":"14"},{"defaultValues":{},"position":{"x":659.0,"y":179.0},"guid":"bc1e9402-2ff5-4018-b9e7-393f6ebcb27b","$version":"A","$type":"Bolt.GenericSubtract","$id":"16"},{"defaultValues":{},"position":{"x":-59.0,"y":-150.0},"guid":"4665fe8c-ec9e-400b-a77c-325cf01fd78c","$version":"A","$type":"Bolt.GraphInput","$id":"18"},{"defaultValues":{},"position":{"x":1092.0,"y":6.0},"guid":"8bac2da4-fc8a-44fb-add2-df2f8763fc45","$version":"A","$type":"Bolt.GraphOutput","$id":"20"},{"sourceUnit":{"$ref":"14"},"sourceKey":"assigned","destinationUnit":{"$ref":"20"},"destinationKey":"AfterTakeDamage","guid":"1907a4f6-b352-4973-8356-b134dd77eafc","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"TakeDamage","destinationUnit":{"$ref":"14"},"destinationKey":"assign","guid":"67c549b7-6579-4551-b979-0dd68ddee51f","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"value","destinationUnit":{"$ref":"16"},"destinationKey":"minuend","guid":"56e38803-38e9-4e24-b21e-5440b9eafe33","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"difference","destinationUnit":{"$ref":"14"},"destinationKey":"input","guid":"cd96b637-9680-4e77-aec1-b107213afb55","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"Amount","destinationUnit":{"$ref":"16"},"destinationKey":"subtrahend","guid":"fa748ce7-e40e-4021-9ec7-8b95ccb7aae1","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
