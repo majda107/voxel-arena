@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: RecoilFlow
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Recoil","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":{"$content":1.0,"$type":"System.Single"},"_type":"System.Single","key":"Speed","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-156.0,"y":-238.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-522.0,"y":-416.0},"guid":"6dccc967-f0e6-4c2f-ad42-f3067578b46a","$version":"A","$type":"Bolt.GraphInput","$id":"11"},{"chainable":false,"member":{"name":"SetTrigger","parameterTypes":["System.String"],"targetType":"UnityEngine.Animator","targetTypeName":"UnityEngine.Animator","$version":"A"},"defaultValues":{"target":null,"%name":{"$content":"Recoil","$type":"System.String"}},"position":{"x":-58.0,"y":-399.0},"guid":"07cb208a-8776-41b0-9c5f-e7c72aaa0a8a","$version":"A","$type":"Bolt.InvokeMember","$id":"13"},{"chainable":false,"member":{"name":"speed","parameterTypes":null,"targetType":"UnityEngine.Animator","targetTypeName":"UnityEngine.Animator","$version":"A"},"defaultValues":{"target":null,"input":{"$content":1.0,"$type":"System.Single"}},"position":{"x":-324.0,"y":-378.0},"guid":"7dfbba98-1691-4922-988b-0701fc242e8c","$version":"A","$type":"Bolt.SetMember","$id":"16"},{"sourceUnit":{"$ref":"11"},"sourceKey":"Recoil","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"f472d9f8-5e1c-4986-95ca-7a5d1363abaa","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"assigned","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"538d6a72-8cf8-4f9f-9f41-4e07e3c0f299","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"11"},"sourceKey":"Speed","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"f7cf96b7-a47c-46e1-8491-7720abc9ea78","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
